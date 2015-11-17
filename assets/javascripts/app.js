@@ -1,4 +1,4 @@
-// setting up namespace for project
+// setting up namespace for item
 var vigetHowTo = vigetHowTo || {};
 
 /*
@@ -39,7 +39,7 @@ vigetHowTo.followNavAdjust = function() {
   var followNavOffset = followContainer.lastElementChild.offsetTop;
   var followContainerOffset = followContainer.offsetTop;
   var followContainerHeight = followContainer.offsetHeight;
-  // followNavHeight * 2 adds extra space to account for the heigh in calculations
+  // followNavHeight * 2 adds extra space to account for the height in calculations
   var scrollMaxRange = (followContainerHeight + followContainerOffset) - (followNavHeight*2);
 
   // rescroll checking
